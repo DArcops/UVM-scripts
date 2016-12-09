@@ -20,5 +20,5 @@ $('.btn-block').click(function(){
     event = "tecnico profesional";
   }
 
-  console.log(event);
+  en.trace("Submited-data",{submittedFrom:event});
 });
